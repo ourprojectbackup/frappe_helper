@@ -15,7 +15,7 @@ from six.moves.urllib.parse import urlencode
 
 import frappe
 from frappe import _, scrub
-from frappe.core.doctype.file.file import get_max_file_size, remove_file_by_url
+from frappe.core.doctype.file.file import  remove_file_by_url
 from frappe.custom.doctype.customize_form.customize_form import docfield_properties
 from frappe.modules.utils import export_module_json, get_doc_module
 from frappe.model.document import Document
